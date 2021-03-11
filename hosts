@@ -1,2 +1,2 @@
 [ubuntu20]
- 127.0.0.1 ansible_user=mars
+10.166.93.16 ansible_user=cp1
