@@ -1,8 +1,8 @@
-
 ---
-- name: Copy jar file to remoter server
+- name: Pull docker image of Calculator
   hosts: all
   tasks:
-    - copy:
-        src: ./target/mini_try-1.0-SNAPSHOT-jar-with-dependencies.jar
-        dest: ~/
+    - name: Pull image
+      docker_image:
+        name: abhi160197/mini_calc
+        source: pull
