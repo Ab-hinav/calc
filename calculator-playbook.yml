@@ -4,5 +4,5 @@
   hosts: all
   tasks:
     - copy:
-        src: ./target/calculator-devops-1.0-SNAPSHOT-jar-with-dependencies.jar
+        src: ./target/mini_try-1.0-SNAPSHOT-jar-with-dependencies.jar
         dest: ~/
